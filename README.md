@@ -15,8 +15,8 @@ Example usage:
 library(nlpden)
 
 # Make some data...
-mu = c(runif(N/2, min = -3, max = 3), rep(0, N/2))
-X = mu + rnorm(N)
+mu = c(runif(1000, min = -3, max = 3), rep(0, 1000))
+X = mu + rnorm(2000)
   
 #  Run nlpden
 f.hat = nlpden(X)

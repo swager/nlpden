@@ -27,8 +27,8 @@ noise_density_function, then nlpden will return an estimate of the
 density f(X).
 }
 \examples{
-mu = c(runif(N/2, min = -3, max = 3), rep(0, N/2))
-X = mu + rnorm(N)
+mu = c(runif(1000, min = -3, max = 3), rep(0, 1000))
+X = mu + rnorm(2000)
 f.hat = nlpden(X)
 plot(f.hat, type = "l")
 }
