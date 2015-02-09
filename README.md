@@ -4,7 +4,6 @@ Density estimation by quadratic programming, as proposed by Wager (2014).
 To install this package in R, run the following commands:
 
 ```R
-install.packages("devtools")
 library(devtools) 
 install_github("swager/nlpden")
 ```
